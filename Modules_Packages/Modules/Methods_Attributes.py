@@ -19,21 +19,3 @@ class Car: #Class name starts with Capital Letter
     def speed(speed='fast'):
         return f'The Bugatti goes {speed}'
 
-Bugatti = Car('Divo',8.0 ,1961 ,1103) #Bugatti is instance of Car
-print(f'Name: {Bugatti.Name}')
-print(f'Engine: {Bugatti.Engine}')
-print(f'Kerb Weight: {Bugatti.Kerb_weight}')
-print(f'Power: {Bugatti.Power_output}')
-print(Bugatti.Carinfo())
-
-print(Bugatti.speed('Very Fast')) #staticmethod
-print(Car.speed('Very Fast')) #staticmethod
-
-print(Bugatti.Doors) #class_Attributes
-print(Car.Doors) #class_Attributes
-
-print(Car.common()) #class_Method
-print(Bugatti.common()) #class_Method
-
-#print(Car.Carinfo()) #instance_Method #Dont have access through Class to Instance method
-print(Bugatti.Carinfo()) #instance_Method 
