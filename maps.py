@@ -1,3 +1,4 @@
+#Apply a function on data and return new list of data
 from random import shuffle
 def jumble(word):
     anagram = list(word)
