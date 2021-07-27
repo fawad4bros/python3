@@ -25,3 +25,5 @@ result = linear_search(number, 11)
 verify(result)
 result = linear_search(number, 9)
 verify(result)
+# Time complexity: Big O log(n)
+# Space complexity: 3+n
