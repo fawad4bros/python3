@@ -1,4 +1,5 @@
 '''
+algo time: Constant, linear, logarithmic, quadratic.
 Recursion: Recursion involves calling the same function again, and hence, has
  a very small length of code. However, as we saw in the analysis, the time
  complexity of recursion can get to be exponential when there are a
@@ -12,8 +13,13 @@ recursion.
 '''
 
 
+# Iterative solution means, a solution is implemented using a loop structure of some kind.
 # Iterative binary search
 def binary_search(list, target):
+    # In functional languages we try to avoid changing data (Variables: first, last ) that is given to a function.
+    # functional languages do not like to modify data given to function, prefer a solution using recursion.
+    # Python does not like recursion, python has maximum recursion depth, after that which are function hold execution.
+    # Python's default recursion limit is 1000.
     first = 0
     # Every List starts at 0 index that's why we are storing 0 in first variable.
     last = len(list) - 1
@@ -46,6 +52,10 @@ result = binary_search(numbers, 10)
 verify(result)
 
 
+# Time complexity:
+# Space complexity: Big O (1) constant space
+
+# Recursive solution is a set of stopping condition and a function that call itself.
 # Recursive binary search
 
 def recursive_binary_search(list, target):
@@ -57,9 +67,13 @@ def recursive_binary_search(list, target):
             return midpoint
         else:
             if list[midpoint] < target:
+                # Returning a new list with the range [midpoint + 1: n-1]
+                # New list is the sub-list of the previous list
+                # Imp_Note: How many time a recursive function is called is known as recursive depth.
                 return recursive_binary_search(list[midpoint + 1:], target)
             else:
                 return recursive_binary_search(list[:midpoint], target)
+            # python does not implement tail optimization
 
 
 def verify(index):
@@ -71,3 +85,6 @@ def verify(index):
 
 result = recursive_binary_search(numbers, 6)
 verify(result)
+
+# Time complexity: logarithmic time Big O (log n)
+# Space complexity: logarithmic space Big O (log n)
