@@ -3,12 +3,12 @@ last = "naeem"
 todo = "Code Test Code"
 task = {"name":"Code Test Code","by":"Fawad"}
 
-### %-formatting: oldest technique (before Python 3.6)
+"""  %-formatting: oldest technique (before Python 3.6) """ 
 
 # print("%s Code Test Code" % first) 
 # print("%s %s" % (first, todo)) 
 
-### str.format(): (before Python 3.6)
+"""  str.format(): (before Python 3.6) """ 
 
 # print("{0} {1}".format(first, todo))
 # # indexing
@@ -16,7 +16,7 @@ task = {"name":"Code Test Code","by":"Fawad"}
 # print("{name} {by}".format(**task))
 # # passing the dictionary
 
-### F-String: (since Python 3.6)
+"""  F-String: (since Python 3.6) """
 
 # print(f"{todo} {first} {last}")
 # # f"Display{variable}"
@@ -41,7 +41,7 @@ task = {"name":"Code Test Code","by":"Fawad"}
 # print(vehicle.alert())
 # # F-String uses in class
 
-### Quiz
+"""  Quiz """
 
 ##1
 # print(f'{{5*3}}')

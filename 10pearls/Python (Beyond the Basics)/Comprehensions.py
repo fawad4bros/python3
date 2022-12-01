@@ -1,6 +1,6 @@
-### Note:  walrus operator := assign a value to variable and return that value.
+"""  Note:  walrus operator := assign a value to variable and return that value """
 numbers = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,10]
-### Example
+"""  Example """
 
 # even = []
 # def findEven(numbers):
@@ -10,12 +10,12 @@ numbers = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,10]
 # findEven(numbers)
 # print(even)
 
-### Applying list comprehension
+"""  Applying list comprehension """
 
 # evenList = [each for each in numbers if each % 2 == 0]
 # print(sorted(evenList))
 
-### Example
+"""  Example """
 
 # evenSet = set()
 # def getEvenSet(numbers):
@@ -25,12 +25,12 @@ numbers = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,10]
 # getEvenSet(numbers)
 # print(evenSet)
 
-### Applying set comprehension
+"""  Applying set comprehension """
 
 # evenSet = {each for each in numbers if each % 2 == 0}
 # print(sorted(evenSet))
 
-### Example
+"""  Example """
 dic = {'fawad':1,'hammad':2,'saad':3,'jawad':4}
 # evenIds = {}
 # def getEvenId(dic):
@@ -40,7 +40,7 @@ dic = {'fawad':1,'hammad':2,'saad':3,'jawad':4}
 # getEvenId(dic)
 # print(evenIds)
 
-### Applying dictionary comprehension
+"""  Applying dictionary comprehension """
 
 # evenIds = {key:value for key,value in dic.items() if value % 2 == 0}
 # print(evenIds)
@@ -55,12 +55,12 @@ nList = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
 # getEven(nList)
 # print(evenNlist)
 
-### Applying nasted comprehension
+"""  Applying nasted comprehension """
 
 # nEven = [[x for x in y if x % 2 == 0] for y in nList]
 # print(nEven)
 
-###Quiz
+""" Quiz """
 
 ##1
 # list1 = [1,2,3]

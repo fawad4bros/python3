@@ -25,6 +25,6 @@ Quantifiers:
 {3,4}   - Range of Numbers (Minimum, Maximum)
 
 
-#### Sample Regexs ####
+### # Sample Regexs ### #
 
 [a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+

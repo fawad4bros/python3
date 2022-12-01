@@ -16,7 +16,7 @@ a,s,d,f,g = gift
 # print(*y)
 ## un-packing using asterisk operator
 
-### Example
+"""  Example """
 # grades = sorted([98,85,13,54,11,15])
 # low,*mid,high=grades
 # print(low)
@@ -24,7 +24,7 @@ a,s,d,f,g = gift
 # print(high)
 ## Find High and low
 
-### Example
+"""  Example """
 # l = [1,2,3,4,5]
 # t = (1,2,3,4,5)
 # def multi(*args):
@@ -38,14 +38,14 @@ a,s,d,f,g = gift
 # print(multi(*l))
 # print(multi(*t))
 
-### Example
+"""  Example """
 # def intro(**kwargs):
 #     for key, value in kwargs.items():
 #         print(f"Hi my name is {key} and I'm a {value}") 
 # dic = {'fawad':'Developer','hammad':'Doctor','saad':'ML Engr','jawad':'AI Engr'}
 # intro(**dic)
 
-### Quiz
+"""  Quiz """
 
 ##1
 # Which of the following is not a difference between a keyword argument and a non-keyword argument?

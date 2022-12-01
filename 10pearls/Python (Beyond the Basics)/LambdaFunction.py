@@ -2,7 +2,7 @@
 #     return x + y
 # print(addition(10, 5))
 
-### Lambda Function ###
+"""  Lambda Function """ 
 
 # addition = lambda x,y : x + y
 # print(addition(10,5))
@@ -13,19 +13,19 @@
 #     return y - x
 # print(difference(10, 5))
 
-### Lambda Function ###
+"""  Lambda Function """ 
 
 # difference = lambda x,y: x - y if x > y else y - x
 # print(difference(10,5))
 
-### Syntax ###
+"""  Syntax """ 
 ## Anonymous function
 ## Declaration with lambda keyword rather than def
 ## Any no. of arguments but only one expression
-### Disadvantages ###
+"""  Disadvantages """ 
 ## Lambda function can not be documented
 
-### Map with Lambda ###
+"""  Map with Lambda """ 
 
 ## Map function takes a function and a Iterable 
 ## Map function always returns a Iterable object
@@ -40,7 +40,7 @@
 # for i in totalSum:
 #     print(i)
 
-### Filter with Lambda ###
+"""  Filter with Lambda """ 
 
 ## Filter function returns an iterable Object
 ## element will be returned if the condition is true
@@ -54,7 +54,7 @@
 # print(next(evenNo))
 # print(next(evenNo))
 
-### Reduce with Lambda ###
+"""  Reduce with Lambda """ 
 
 ## Reduce function returns an element
 ## function takes to arguments
@@ -65,7 +65,7 @@
 # total = reduce((lambda x , y: x + y),numbers)
 # print(total)
 
-### Quiz ###
+"""  Quiz """ 
 ## 1
 # Which of the following is false?
 # Lambda functions can have multiple expressions
