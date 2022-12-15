@@ -1,3 +1,8 @@
+# Learn more...
+# https://www.machinelearningplus.com/python/lambda-function/
+
+
+
 # def addition(x,y):
 #     return x + y
 # print(addition(10, 5))

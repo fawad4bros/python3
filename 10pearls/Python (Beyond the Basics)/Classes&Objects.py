@@ -37,6 +37,7 @@
 #         # print(f'{cls.name} is {cls.state}') # AttributeError: type object 'Person' has no attribute 'name'
 #         print(f'is {cls.state}')
 #     def info(self):
+#         self.state = 'alive'
 #         print(f'{self.name} age of {self.age} is {self.state}')
 
 ### object/instance method and attribute can be accessed using the object/instance of class (Person)
